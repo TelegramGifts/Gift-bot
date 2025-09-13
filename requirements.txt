@@ -1,0 +1,46 @@
+# 🎁 ربات پیشرفته هشدار گیفت تلگرام
+# Advanced Telegram Gift Alert Bot Requirements
+
+# Core Telegram library
+pyrogram>=2.0.0
+TgCrypto>=1.2.5
+
+# MTProto user client for star gifts monitoring (fallback)
+telethon>=1.36.0
+
+# Database
+sqlite3
+
+# Async support
+asyncio-mqtt>=0.13.0
+
+# Utilities
+python-dateutil>=2.8.2
+requests>=2.31.0
+aiohttp>=3.9.0
+
+# Performance monitoring (optional)
+psutil>=5.9.0
+memory-profiler>=0.61.0
+
+# Logging and debugging
+colorlog>=6.7.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Data handling
+dataclasses-json>=0.6.0
+
+# Security
+cryptography>=41.0.0
+
+# Development tools (optional)
+black>=23.0.0
+flake8>=6.0.0
+pytest>=7.4.0
+pytest-asyncio>=0.21.0
+
+# Documentation (optional)
+sphinx>=7.0.0
+sphinx-rtd-theme>=1.3.0
