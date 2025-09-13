@@ -2,7 +2,7 @@
   "telegram": {
     "api_id": 22493379,
     "api_hash": "9ce09366b518f59efdb3c616ff09b2e6",
-    "bot_token": "7870121567:AAEleYyoxxKI8Z350dywvFQmRVgfHejCBrs",
+    "bot_token": "8338252019:AAENbaUujAfrvU5U-oIrzpJLQkAr98PhtNs",
     "session_name": "gift_alert_bot",
     "device_model": "PC 64bit",
     "system_version": "4.14.186",
@@ -26,12 +26,12 @@
   },
   "notification": {
     "max_notifications_per_minute": 20,
-    "max_notifications_per_hour": 1000,
+    "max_notifications_per_hour": 10000,
     "enable_smart_filtering": true,
     "enable_anti_spam": true,
     "default_language": "en",
     "retry_failed_notifications": true,
-    "max_retry_attempts": 3
+    "max_retry_attempts": 10
   },
   "admin": {
     "admin_user_ids": [7531225248],
@@ -44,7 +44,7 @@
   },
   "security": {
     "enable_rate_limiting": true,
-    "max_requests_per_minute": 60,
+    "max_requests_per_minute": 600,
     "block_suspicious_users": true,
     "enable_flood_protection": true,
     "allowed_update_types": [
@@ -56,8 +56,8 @@
   "performance": {
     "max_concurrent_requests": 10,
     "connection_pool_size": 5,
-    "cache_size_mb": 50,
+    "cache_size_mb": 500,
     "enable_compression": true,
-    "optimize_memory": true
+    "optimize_memory": false
   }
 }
