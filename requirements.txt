@@ -3,7 +3,6 @@
 
 # Core Telegram library
 pyrogram
-TgCrypto
 
 # MTProto user client for star gifts monitoring (fallback)
 telethon
@@ -33,4 +32,5 @@ dataclasses-json
 
 # Security
 cryptography
+
 
